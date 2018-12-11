@@ -8,7 +8,7 @@ else {
   connection = mysql.createConnection({
     port: 3306,
     user: "root",
-    password: process.env.MY_SQL_PASSWORD ? process.env.MY_SQL_PASSWORD : "",
+    password: "washington",
     database: "burgers_db"
   });
 }

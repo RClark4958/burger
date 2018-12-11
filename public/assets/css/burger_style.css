@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  background-color: tan;
+}
+
+h1 {
+  font-size: 38px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+#burger-input {
+  max-width: 301px;
+  display: inline-block;
+  position: relative;
+}
+
+textarea {
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 6px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#submit-burger {
+  position: absolute;
+  right: -10px;
+  bottom: -26px;
+}
+
+button {
+  background-color: whitesmoke;
+}
+
+#burgers {
+  margin-bottom: 30px;
+}
+
+.burgers {
+  display: inline-block;
+  width: 320px;
+  vertical-align: top;
+}
+
+.burger {
+  width: 240px;
+  background-color: white;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.devoured {
+  color: red;
+  font-size: 18px;
+  display: inline-block;
+  margin: 0;
+}
+
+@media screen and (max-width: 644px) {
+  .devoured {
+      margin-top: 20px;
+  }
+}
