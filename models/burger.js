@@ -1,9 +1,9 @@
 var orm = require("../config/orm");
 
 module.exports = {
-  getBurgerList: (callback) => orm.selectAll("burgers_db.burgers", callback),
+  getBurgerList: (callback) => orm.selectAll("burgers", callback),
   insertBurger: (burgerName, callback) => orm.insertOne(
-    "burgers_db.burgers",
+    "burgers",
     {
       burger_name: burgerName,
       devoured: false
@@ -12,7 +12,7 @@ module.exports = {
   ),
   updateBurger: (burgerId, callback) => {
     orm.updateOne(
-      "burgers_db.burgers",
+      "burgers",
       { devoured: true },
       { id: burgerId },
       callback
