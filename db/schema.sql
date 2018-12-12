@@ -3,7 +3,7 @@ CREATE DATABASE eefb7d3abjstwrf5;
 
 USE eefb7d3abjstwrf5;
 
-CREATE TABLE eefb7d3abjstwrf5.burgers(
+CREATE TABLE burgers(
     id INT(4) AUTO_INCREMENT NOT NULL,
     burger_name VARCHAR(60) NOT NULL,
     devoured BOOLEAN NOT NULL,
