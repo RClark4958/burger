@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS burgers_db;
-CREATE DATABASE burgers_db;
+-- DROP DATABASE IF EXISTS burgers_db;
+-- CREATE DATABASE burgers_db;
 
-USE burgers_db;
+USE eefb7d3abjstwrf5;
 
 CREATE TABLE burgers(
     id INT(4) AUTO_INCREMENT NOT NULL,
